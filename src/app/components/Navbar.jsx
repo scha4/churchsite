@@ -4,12 +4,15 @@ import {
   Navbar,
   Collapse,
   Typography,
-  Button,
   IconButton,
 } from "@material-tailwind/react";
+import Link from "next/link";
+
+import { BsFillCaretDownFill, BsFillCaretUpFill } from "react-icons/bs";
 
 export default function NavbarMain() {
   const [openNav, setOpenNav] = useState(false);
+  const [directoryOpen, setDirectoryOpen] = useState(false);
 
   useEffect(() => {
     window.addEventListener(
@@ -19,23 +22,51 @@ export default function NavbarMain() {
   }, []);
 
   const navList = (
-    <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 ">
-      <Typography as="li" className="p-1 font-bold">
-        <a href="#" className="flex items-center">
+    <ul className="flex flex-col  lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 hover: ">
+      <Typography
+        as="li"
+        className="p-1 font-bold border border-white lg:border-none py-2   "
+        onClick={() => setDirectoryOpen((prev) => !prev)}
+      >
+        <span className="flex items-center ">
           Church
-        </a>
+          {!directoryOpen ? <BsFillCaretDownFill /> : <BsFillCaretUpFill />}
+        </span>
+        {directoryOpen && (
+          <div
+            className="lg:absolute relative  text-teal-600 flex flex-col py-2 items-left px-5 rounded-lg
+         bg-white border border-teal-600"
+          >
+            <div className="flex flex-col lg:gap-3 gap-2">
+              <Link href="/about">About Us</Link>
+              <a href="#">Location</a>
+              <a href="#"> Beliefs</a>
+              <Link href="/leadership"> Staff</Link>
+            </div>
+          </div>
+        )}
       </Typography>
-      <Typography as="li" className="p-1 font-bold">
-        <a href="#" className="flex items-center">
+
+      <Typography
+        as="li"
+        className="p-1 font-bold border border-white lg:border-none  py-2 "
+      >
+        <a href="#" className="flex items-center ">
           Get Involved
         </a>
       </Typography>
-      <Typography as="li" className="p-1 font-bold">
+      <Typography
+        as="li"
+        className="p-1 font-bold border border-white lg:border-none py-2  "
+      >
         <a href="#" className="flex items-center">
           Events
         </a>
       </Typography>
-      <Typography as="li" className="p-1 font-bold">
+      <Typography
+        as="li"
+        className="p-1 font-bold border border-white lg:border-none py-2  "
+      >
         <a href="#" className="flex items-center">
           Give
         </a>
@@ -44,16 +75,12 @@ export default function NavbarMain() {
   );
 
   return (
-    <Navbar className="mx-auto max-w-full py-2 px-4 lg:px-8 lg:py-4 bg-teal-400 sticky">
-      <div className="container mx-auto flex items-center justify-between">
-        <Typography
-          as="a"
-          href="#"
-          className="mr-4 cursor-pointer py-1.5  text-white text-2xl font-bold"
-        >
-          RHEMA CHURCH
+    <Navbar className="sticky inset-0 z-10  mx-auto max-w-full rounded-none py-2 px-4 lg:px-8 lg:py-4 bg-teal-600  ">
+      <div className="container mx-auto flex items-center justify-between z-10 ">
+        <Typography className="mr-4 cursor-pointer py-1.5  text-white text-2xl font-bold ">
+          <Link href="/">RHEMA CHURCH</Link>
         </Typography>
-        <div className="hidden lg:block">{navList}</div>
+        <div className="hidden lg:block ">{navList}</div>
 
         <IconButton
           variant="text"
@@ -94,7 +121,9 @@ export default function NavbarMain() {
         </IconButton>
       </div>
       <Collapse open={openNav}>
-        <div className="container mx-auto">{navList}</div>
+        <div className="container mx-auto border border-white lg:hidden ">
+          {navList}
+        </div>
       </Collapse>
     </Navbar>
   );
