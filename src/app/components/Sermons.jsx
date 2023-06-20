@@ -29,7 +29,7 @@ function Sermons() {
               color="white"
               className=" lg:text-3xl   font-bold text-md mt-5 text-end text-teal-600"
             >
-              "MY HOUSE SHALL SERVE THE LORD
+              &apos;MY HOUSE SHALL SERVE THE LORD&apos;
             </Typography>
             <Typography
               variant="lead"

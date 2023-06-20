@@ -30,7 +30,7 @@ function Ministry() {
               color="white"
               className=" md:text-3xl font-bold text-lg mt-5"
             >
-              There's a place for you in what God is doing in our house.
+              There&apos;s a place for you in what God is doing in our house.
             </Typography>
             <Button className="mt-10 bg-teal-600 ">Learn More</Button>
           </div>

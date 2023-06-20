@@ -21,16 +21,16 @@ function AboutSection() {
             Bethel is a congregation rooted in the love of God and dedicated to
             worldwide transformation through revival. The Lord has given us a
             mandate to be a resource center to impact cities and nations. We
-            believe we're on the edge of the greatest revival of all time.
+            believe we&apos;re on the edge of the greatest revival of all time.
           </p>
           <p>
             We are a vibrant family of hope-filled believers who deeply
             experience the love and presence of God and partner with Jesus to
             express the joy and power of His kingdom in every area of life. At
-            the center of our gatherings is a pursuit of God's presence, where
-            our hearts are transformed and launched into our destinies. We are
-            excited to run with you and pursue God's presence until the earth
-            looks like heaven.
+            the center of our gatherings is a pursuit of God&apos;s presence,
+            where our hearts are transformed and launched into our destinies. We
+            are excited to run with you and pursue God&apos;s presence until the
+            earth looks like heaven.
           </p>
           <p>We welcome you to join us in this adventure!</p>
         </div>

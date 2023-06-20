@@ -13,14 +13,14 @@ function Hero() {
           <div className=" mx-auto max-w-screen-xl col-span-1  flex flex-col md:items-left justify-center space-y-7 ml-5 mt-6">
             <h1 className="text-2xl font-bold">
               Every believer was created to belong to a community. It was never
-              God’s heart for us to do this life alone.
+              God&apos;s heart for us to do this life alone.
             </h1>
             <h1 className="text-xl font-normal">
               Bethel is a congregation of worshippers of Jesus Christ in
               Redding, California, who long to see hearts ignited until heaven
               meets earth. We are on the edge of the greatest revival of all
               time. Get involved and join us as we pursue the personal,
-              regional, and global expansion of God's kingdom through His
+              regional, and global expansion of God&apos;s kingdom through His
               manifest presence.
             </h1>
           </div>
@@ -44,14 +44,14 @@ function Hero() {
             </h1>
             <h1 className="text-lg font-bold">
               Every believer was created to belong to a community. It was never
-              God’s heart for us to do this life alone.
+              God&apos;s heart for us to do this life alone.
             </h1>
             <h1 className="text-md font-bold">
               Bethel is a congregation of worshippers of Jesus Christ in
               Redding, California, who long to see hearts ignited until heaven
               meets earth. We are on the edge of the greatest revival of all
               time. Get involved and join us as we pursue the personal,
-              regional, and global expansion of God's kingdom through His
+              regional, and global expansion of God&apos;s kingdom through His
               manifest presence.
             </h1>
           </div>

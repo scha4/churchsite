@@ -1,5 +1,6 @@
 import React from "react";
 import { BsMapFill, BsFillTelephoneFill } from "react-icons/bs";
+import Image from "next/image";
 function LocationSection() {
   return (
     <>
@@ -18,7 +19,14 @@ function LocationSection() {
         </h1>
       </div>
       <div>
-        <img src="../exmap.jpg" />
+        <Image
+          src="../exmap.jpg"
+          className="w-full"
+          alt="mapImage"
+          width={0}
+          height={0}
+          sizes="100vw"
+        />
       </div>
     </>
   );
