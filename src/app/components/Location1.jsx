@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "@material-tailwind/react";
 import Link from "next/link";
-
+import Image from "next/image";
 function Location1() {
   return (
     <>
@@ -16,7 +16,14 @@ function Location1() {
           </Button>
         </div>
         <div className="hidden col-start-2 lg:flex item-center justify-center mb-10 ">
-          <img src="../cross.jpg" className="lg:w-5/6  md:max-w-[70%] " />
+          <Image
+            src="/cross.jpg"
+            alt="cross"
+            width="0"
+            height="0"
+            sizes="100vw"
+            className="lg:w-5/6  md:max-w-[70%] "
+          />
         </div>
       </div>
     </>

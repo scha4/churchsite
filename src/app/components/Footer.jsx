@@ -1,12 +1,19 @@
 "use client";
-
+import Image from "next/image";
 import { Typography } from "@material-tailwind/react";
 
 export default function Footer() {
   return (
     <footer className="w-full bg-teal-600 p-8">
       <div className="flex flex-row flex-wrap items-center justify-center gap-y-6 gap-x-12 text-center md:justify-between">
-        <img src="../demo.png" alt="logo-ct" className="w-20" />
+        <Image
+          width={0}
+          height={0}
+          sizes="100vw"
+          src="/demo.png"
+          alt="logo-ct"
+          className="w-20"
+        />
         <ul className="flex flex-wrap items-center gap-y-2 gap-x-8">
           <li>
             <Typography

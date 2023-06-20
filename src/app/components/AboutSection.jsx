@@ -1,11 +1,18 @@
 import React from "react";
-
+import Image from "next/image";
 function AboutSection() {
   return (
     <>
       <div className="lg:grid grid-cols-2 flex-col py-20 gap-3 ">
         <div className="col-start-1 flex item-center justify-center mb-10 ">
-          <img src="../cross.jpg" className="lg:w-5/6  md:max-w-[70%]" />
+          <Image
+            alt="leaderImage"
+            width={0}
+            height={0}
+            sizes="100vw"
+            src="/cross.jpg"
+            className="lg:w-5/6  md:max-w-[70%]"
+          />
         </div>
         <div className="col-start-2 flex flex-col gap-3  mx-3">
           <h1 className="text-lg">ABOUT</h1>

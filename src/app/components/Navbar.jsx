@@ -39,7 +39,7 @@ export default function NavbarMain() {
           >
             <div className="flex flex-col lg:gap-3 gap-2">
               <Link href="/about">About Us</Link>
-              <a href="#">Location</a>
+              <Link href="/location">Location</Link>
               <a href="#"> Beliefs</a>
               <Link href="/leadership"> Staff</Link>
             </div>

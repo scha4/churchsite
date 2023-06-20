@@ -11,31 +11,31 @@
         "image": "/haerinhead.jpg"
       },
       {
-        "id": "1",
-        "name": "Haerin",
-        "position": "Senior Pastor",
-        "description": "A website for a korean OEM service company called Mandeulja.  This website was created using React, Tailwind CSS, and EmailJs. ",
-
-        "image": "/haerinhead.jpg"
-      },
-      {
-        "id": "1",
-        "name": "Haerin",
-        "position": "Senior Pastor",
-        "description": "A website for a korean OEM service company called Mandeulja.  This website was created using React, Tailwind CSS, and EmailJs. ",
-
-        "image": "/haerinhead.jpg"
-      },
-      {
-        "id": "1",
-        "name": "Haerin",
-        "position": "Senior Pastor",
-        "description": "A website for a korean OEM service company called Mandeulja.  This website was created using React, Tailwind CSS, and EmailJs. ",
-
-        "image": "/haerinhead.jpg"
-      },
-      {
         "id": "2",
+        "name": "Haerin",
+        "position": "Senior Pastor",
+        "description": "A website for a korean OEM service company called Mandeulja.  This website was created using React, Tailwind CSS, and EmailJs. ",
+
+        "image": "/haerinhead.jpg"
+      },
+      {
+        "id": "3",
+        "name": "Haerin",
+        "position": "Senior Pastor",
+        "description": "A website for a korean OEM service company called Mandeulja.  This website was created using React, Tailwind CSS, and EmailJs. ",
+
+        "image": "/haerinhead.jpg"
+      },
+      {
+        "id": "4",
+        "name": "Haerin",
+        "position": "Senior Pastor",
+        "description": "A website for a korean OEM service company called Mandeulja.  This website was created using React, Tailwind CSS, and EmailJs. ",
+
+        "image": "/haerinhead.jpg"
+      },
+      {
+        "id": "5",
         "name": "Hanni",
         "position": "Senior Pastor",
         "description": "A website for a korean OEM service company called Mandeulja.  This website was created using React, Tailwind CSS, and EmailJs.",
@@ -43,7 +43,7 @@
         "image": "/hannihead.jpg"
       },
       {
-        "id": "3",
+        "id": "6",
         "name": "Minji",
         "position": "Senior Pastor",
         "description": "A fully functional website created for a client using React JS, CSS, React router, and Email JS.",
@@ -51,7 +51,7 @@
         "image": "/minjihead.jpg"
       },
       {
-        "id": "4",
+        "id": "7",
         "name": "Danielle",
         "position": "Senior Pastor",
         "description": "A website for a korean OEM service company called Mandeulja.  This website was created using React, Tailwind CSS, and EmailJs. ",
@@ -59,7 +59,7 @@
         "image": "/daniellehead.jpg"
       },
       {
-        "id": "5",
+        "id": "8",
         "name": "Haein",
         "position": "Senior Pastor",
         "description": "A website for a korean OEM service company called Mandeulja.  This website was created using React, Tailwind CSS, and EmailJs. ",
