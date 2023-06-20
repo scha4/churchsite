@@ -3,7 +3,7 @@ import Image from "next/image";
 function AboutSection() {
   return (
     <>
-      <div className="lg:grid grid-cols-2 flex-col py-20 gap-3 ">
+      <div className="lg:grid grid-cols-2 flex-col lg:py-20 gap-3 pb-10 ">
         <div className="col-start-1 flex item-center justify-center mb-10 ">
           <Image
             alt="leaderImage"

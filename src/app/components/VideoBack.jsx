@@ -5,7 +5,7 @@ export default function VideoBack() {
   return (
     <>
       <div className="relative ">
-        <video className="" controls autoPlay muted loop>
+        <video autoPlay muted playsInline>
           <source src="./compressedlion.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 grid h-full w-full place-items-center ">

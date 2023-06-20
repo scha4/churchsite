@@ -19,7 +19,7 @@ function Sermons() {
             <Typography
               variant="lead"
               color="white"
-              className=" lg:text-4xl font-bold text-xl flex justify-center text-center "
+              className=" lg:text-4xl font-bold text-lg flex justify-center text-center mt-2 "
             >
               LATEST SERMON
             </Typography>
@@ -38,7 +38,7 @@ function Sermons() {
             >
               JOSHUA 24:15
             </Typography>
-            <Button className="mt-10 bg-teal-600">WATCH NOW</Button>
+            <Button className="mt-5 bg-teal-600">WATCH NOW</Button>
           </div>
         </div>
       </div>
