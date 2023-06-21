@@ -48,14 +48,14 @@ export default function NavbarMain() {
       </Typography>
 
       <Typography as="li" className="p-1 font-bold  py-2 ">
-        <a href="#" className="flex items-center ">
+        <Link href="getinvolved" className="flex items-center ">
           Get Involved
-        </a>
+        </Link>
       </Typography>
       <Typography as="li" className="p-1 font-bold py-2  ">
-        <a href="#" className="flex items-center">
+        <Link href="/events" className="flex items-center">
           Events
-        </a>
+        </Link>
       </Typography>
       <Typography as="li" className="p-1 font-bold py-2  ">
         <Link href="/give" className="flex items-center">
