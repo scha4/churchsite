@@ -30,8 +30,8 @@ function StatementOfFaith() {
           God&apos;s Anointed One, empowered by the Holy Spirit to inaugurate
           God&apos;s kingdom on earth. He was crucified for our sins, died, was
           buried, resurrected, and ascended into heaven, and is now alive today
-          in the presence of God the Father and in His people. He is "true God"
-          and "true man."
+          in the presence of God the Father and in His people. He is &quot;true
+          God&quot; and &quot;true man.&quot;
         </p>
         <p>
           We believe that we are saved by God&apos;s grace, through faith in the
