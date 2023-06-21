@@ -25,7 +25,7 @@ export default function NavbarMain() {
     <ul className="flex flex-col  lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 hover: ">
       <Typography
         as="li"
-        className="p-1 font-bold border border-white lg:border-none py-2   "
+        className="p-1 font-bold py-2   "
         onClick={() => setDirectoryOpen((prev) => !prev)}
       >
         <span className="flex items-center ">
@@ -40,36 +40,27 @@ export default function NavbarMain() {
             <div className="flex flex-col lg:gap-3 gap-2">
               <Link href="/about">About Us</Link>
               <Link href="/location">Location</Link>
-              <a href="#"> Beliefs</a>
+              <Link href="/beliefs"> Beliefs</Link>
               <Link href="/leadership"> Staff</Link>
             </div>
           </div>
         )}
       </Typography>
 
-      <Typography
-        as="li"
-        className="p-1 font-bold border border-white lg:border-none  py-2 "
-      >
+      <Typography as="li" className="p-1 font-bold  py-2 ">
         <a href="#" className="flex items-center ">
           Get Involved
         </a>
       </Typography>
-      <Typography
-        as="li"
-        className="p-1 font-bold border border-white lg:border-none py-2  "
-      >
+      <Typography as="li" className="p-1 font-bold py-2  ">
         <a href="#" className="flex items-center">
           Events
         </a>
       </Typography>
-      <Typography
-        as="li"
-        className="p-1 font-bold border border-white lg:border-none py-2  "
-      >
-        <a href="#" className="flex items-center">
+      <Typography as="li" className="p-1 font-bold py-2  ">
+        <Link href="/give" className="flex items-center">
           Give
-        </a>
+        </Link>
       </Typography>
     </ul>
   );
@@ -121,9 +112,7 @@ export default function NavbarMain() {
         </IconButton>
       </div>
       <Collapse open={openNav}>
-        <div className="container mx-auto border border-white lg:hidden ">
-          {navList}
-        </div>
+        <div className="container mx-auto  lg:hidden ">{navList}</div>
       </Collapse>
     </Navbar>
   );
